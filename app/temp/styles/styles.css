@@ -501,7 +501,8 @@ img {
 .btn {
   background-color: #2f5572;
   color: #FFF;
-  text-decoration: none;
+  -webkit-text-decoration: nonse;
+          text-decoration: nonse;
   padding: .75rem 1.2rem;
   display: inline-block;
 }
