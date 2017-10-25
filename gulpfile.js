@@ -5,3 +5,6 @@ require('./gulp/tasks/styles');
 
 // Import watch tasks
 require('./gulp/tasks/watch');
+
+// Import icon sprite tasks
+require('./gulp/tasks/sprites');

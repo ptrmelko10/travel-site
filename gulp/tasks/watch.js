@@ -22,6 +22,11 @@ gulp.task('watch', function () {
   watch('./app/assets/styles/**/*.css', function() {
     gulp.start('cssInject');
   });
+
+//  watch('./app/assets/styles/**/*.css', function() {
+//    gulp.start('icons');
+//  });
+
 });
 
 // CSS Inject for browserSync
