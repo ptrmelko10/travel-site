@@ -67,6 +67,9 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
+"use strict";
+
+
 var Personnn = __webpack_require__(1);
 var $ = __webpack_require__(2);
 
@@ -76,21 +79,22 @@ var jane = new Person("Jane Smith", "green");
 john.greet();
 jane.greet();
 
-
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function Person (name, color) {
+"use strict";
+
+
+function Person(name, color) {
   this.name = name;
   this.color = color;
   this.greet = function () {
     console.log("Hello, my name is " + this.name + " and my favorite color is " + this.color + ".");
-  }
+  };
 }
 
 module.exports = Person;
-
 
 /***/ }),
 /* 2 */
