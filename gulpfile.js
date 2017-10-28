@@ -12,5 +12,8 @@ require('./gulp/tasks/watch');
 // Import icon sprite tasks
 require('./gulp/tasks/sprites');
 
-// Import
+// Import Modernizr tasks
 require('./gulp/tasks/modernizr');
+
+// Import Build tasks
+require('./gulp/tasks/build');
